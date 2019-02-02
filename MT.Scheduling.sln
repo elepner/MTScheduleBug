@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.Scheduling", "MT.Scheduling\MT.Scheduling.csproj", "{40A316C2-5D83-4602-B6A1-65260AD0BC78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.Scheduling.Publisher", "MT.Scheduling\MT.Scheduling.Publisher.csproj", "{40A316C2-5D83-4602-B6A1-65260AD0BC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.Scheduling.Subscriber", "MT.Scheduling.Subscriber\MT.Scheduling.Subscriber.csproj", "{DAF12D8F-1F23-4236-A219-7D59E51A2BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.Scheduling.Messages", "MT.Scheduling.Messages\MT.Scheduling.Messages.csproj", "{3260BB45-9C9A-46C9-99D1-287EEFC59D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{40A316C2-5D83-4602-B6A1-65260AD0BC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A316C2-5D83-4602-B6A1-65260AD0BC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A316C2-5D83-4602-B6A1-65260AD0BC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF12D8F-1F23-4236-A219-7D59E51A2BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF12D8F-1F23-4236-A219-7D59E51A2BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF12D8F-1F23-4236-A219-7D59E51A2BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF12D8F-1F23-4236-A219-7D59E51A2BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3260BB45-9C9A-46C9-99D1-287EEFC59D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3260BB45-9C9A-46C9-99D1-287EEFC59D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3260BB45-9C9A-46C9-99D1-287EEFC59D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3260BB45-9C9A-46C9-99D1-287EEFC59D26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
