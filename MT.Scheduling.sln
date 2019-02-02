@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.Scheduling", "MT.Scheduling\MT.Scheduling.csproj", "{40A316C2-5D83-4602-B6A1-65260AD0BC78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40A316C2-5D83-4602-B6A1-65260AD0BC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A316C2-5D83-4602-B6A1-65260AD0BC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A316C2-5D83-4602-B6A1-65260AD0BC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A316C2-5D83-4602-B6A1-65260AD0BC78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B4FC2AC-7FF1-40FF-916A-EF5A995A2C36}
+	EndGlobalSection
+EndGlobal
