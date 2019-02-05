@@ -39,7 +39,7 @@ namespace MT.Scheduling
                             });
                         });
 
-                        EndpointConvention.Map<CreateUserCommand>(new Uri($"{host.Address.ToString()}/createUserCommand"));
+                        EndpointConvention.Map<CreateUserCommand>(new Uri($"{host.Address.ToString()}/testproject/createUserCommand"));
                     }));
 
                     serviceCollection.AddSingleton<IPublishEndpoint>(provider => provider.GetService<IBusControl>());

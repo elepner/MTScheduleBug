@@ -26,7 +26,7 @@ namespace MT.Scheduling.Subscriber
                     var host = cfg.Host(busConnectionString,
                         hostConfiguration => { hostConfiguration.OperationTimeout = TimeSpan.FromSeconds(10); });
 
-                    cfg.ReceiveEndpoint(host, "createusercommand", configurator =>
+                    cfg.ReceiveEndpoint(host, "testproject/createusercommand", configurator =>
                     {
                         configurator.Handler<CreateUserCommand>(async context =>
                         {
