@@ -6,12 +6,12 @@
     <LangVersion>7.1</LangVersion>
   </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="MassTransit" Version="5.2.3" />
-        <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="5.2.3" />
-        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="5.2.3" />
-        <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
-        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.1" />
-        <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.1.1" />
+        <PackageReference Include="MassTransit" Version="5.3.0" />
+        <PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="5.3.0" />
+        <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="5.3.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.2.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.2.0" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\MT.Scheduling.Messages\MT.Scheduling.Messages.csproj" />
